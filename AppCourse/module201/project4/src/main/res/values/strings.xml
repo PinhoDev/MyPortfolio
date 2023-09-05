@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">Module 201 - Project 4</string>
+    <string name="lt_finance">LT Finance</string>
+    <string name="the_mortgage_platform_n_of_the_future">The mortgage platform\nof the future</string>
+    <string name="welcome">Welcome</string>
+    <string name="lt_finance_helps_you_calculate_nand_apply_for_mortgages_in_nover_100_banks">LT Finance helps you calculate\nand apply for mortgages in\nover 100+ banks</string>
+    <string name="get_started">Get Started</string>
+    <string name="instantly_receive_nmoney">Instantly receive\nmoney</string>
+    <string name="money_to_your_bank_account">Apply to over 100+ banks and after a\nfew minutes you will receive the\nmoney to your bank account.</string>
+    <string name="military_grade_nsecurity">Military Grade\nSecurity</string>
+    <string name="all_your_data">All your data is encrypted and\nsecurely stored. Your data\nbelongs to you.</string>
+    <string name="easy_to_visualize">Easy to visualize\nmonthly costs</string>
+    <string name="no_hidden_cost">No hidden cost. No hidden fees.\nAll the data is easy clear and to\nthe point.</string>
+    <string name="amount_you_want_to_borrow">Amount you want to borrow</string>
+    <string name="loan_amount">Loan amount</string>
+    <string name="yearly_interest_rate">Yearly Interest Rate</string>
+    <string name="interest_rate">Interest rate</string>
+    <string name="years_to_payback">Years to payback</string>
+    <string name="payback_time">Payback time</string>
+    <string name="apply_for_mortgage">Apply for Mortgage</string>
+    <string name="invalid_amount">Invalid Amount</string>
+    <string name="invalid_rate">Invalid Rate</string>
+    <string name="invalid_year">Invalid a Number of years</string>
+    <string name="enter_amount">Enter a Amount</string>
+    <string name="enter_rate">Enter a Rate</string>
+    <string name="enter_year">Enter a Number of years</string>
+    <string name="amount_sign">%,.2f SEK</string>
+    <string name="rate_sign">%.2f%%</string>
+    <string name="years_sign">%s years</string>
+    <string name="mortgage_sign">%1$,d SEK/Month</string>
+    <string name="language_format">sv</string>
+    <string name="country_format">SE</string>
+    <string name="_0_sek_month">0 SEK / Month</string>
+
+</resources>

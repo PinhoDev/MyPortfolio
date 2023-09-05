@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_3"
+    android:gravity="center"
+    android:nextFocusForward="@+id/editTextRate"
+    android:orientation="vertical"
+    android:paddingHorizontal="18dp"
+    android:fitsSystemWindows="true"
+    tools:context=".MortgageActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/mortgage"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textViewBorrow"
+        style="@style/TextViewMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="@string/amount_you_want_to_borrow"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        style="@style/EditTextMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/loan_amount"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textViewRate"
+        style="@style/TextViewMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/yearly_interest_rate" />
+
+    <EditText
+        android:id="@+id/editTextRate"
+        style="@style/EditTextMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:enabled="false"
+        android:hint="@string/interest_rate"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textViewYear"
+        style="@style/TextViewMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="@string/years_to_payback" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        style="@style/EditTextMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:digits="1234567890"
+        android:enabled="false"
+        android:hint="@string/payback_time"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="2"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textViewMortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:letterSpacing="0.1"
+        android:text="@string/_0_sek_month"
+        android:textAlignment="center"
+        android:textColor="@color/powder_blue"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="38dp"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="@color/burnt_orange"
+        android:enabled="false"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/apply_for_mortgage"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/powder_blue"
+        tools:ignore="TextContrastCheck,VisualLintBounds,VisualLintButtonSize" />
+
+</LinearLayout>

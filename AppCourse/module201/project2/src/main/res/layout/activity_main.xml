@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:paddingHorizontal="19dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTispy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_medium_italic"
+        android:letterSpacing="0.2"
+        android:text="@string/tipsy"
+        android:textAlignment="center"
+        android:textColor="@color/coral_pink"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:letterSpacing="0.2"
+        android:text="@string/enter_bill_amount"
+        android:textAlignment="center"
+        android:textColor="@color/pale_gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTispy" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/gray"
+        android:digits="0123456789."
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/bill_amount"
+        android:inputType="numberDecimal"
+        android:maxLength="8"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/textViewChooseTips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewAmount"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textViewChooseTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:letterSpacing="0.2"
+        android:text="@string/choose_tips_amount"
+        android:textAlignment="center"
+        android:textColor="@color/pale_gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextAmount" />
+
+    <LinearLayout
+        android:id="@+id/linearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewChooseTips">
+
+        <Button
+            android:id="@+id/buttonDecrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/negative"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textViewPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text="@string/percentage_value"
+            android:textAlignment="center"
+            android:textColor="@color/light_gray"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonIncrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/positive"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="@string/empty_value"
+        android:textColor="@color/light_gray"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearButton" />
+
+    <TextView
+        android:id="@+id/titleTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:letterSpacing="0.2"
+        android:text="@string/total"
+        android:textColor="@color/hot_pink"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/totalAmount" />
+
+    <LinearLayout
+        android:id="@+id/linearBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTotalAmount">
+
+        <TextView
+            android:id="@+id/totalBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="@string/empty_value"
+            android:textAlignment="center"
+            android:textColor="@color/light_gray"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:letterSpacing="0.2"
+            android:text="@string/bill"
+            android:textAlignment="center"
+            android:textColor="@color/hot_pink"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTotalAmount">
+
+        <TextView
+            android:id="@+id/totalTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="@string/empty_value"
+            android:textAlignment="center"
+            android:textColor="@color/light_gray"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:letterSpacing="0.2"
+            android:text="@string/tip"
+            android:textColor="@color/hot_pink"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/textViewRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:letterSpacing="0.2"
+        android:text="@string/refresh_amount"
+        android:textColor="@color/hot_pink"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearAmount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

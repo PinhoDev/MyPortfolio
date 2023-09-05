@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidHomework" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextViewMortgage">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/burnt_orange</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EditTextMortgage">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:backgroundTint">@color/gray_600</item>
+        <item name="android:textColor">@color/gray_600</item>
+        <item name="android:textColorHint">@color/gray_600</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="NextTextStyle">
+        <item name="android:text">NEXT</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/burnt_orange</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="BeginTextStyle">
+        <item name="android:text">BEGIN</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/burnt_orange</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="BackArrow" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">@null</item>
+        <item name="android:homeAsUpIndicator">@drawable/arrow_back</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    
+
+</resources>

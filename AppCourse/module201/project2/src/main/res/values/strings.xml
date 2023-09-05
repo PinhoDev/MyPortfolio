@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Module 201 - Project 2</string>
+    <string name="tipsy" translatable="false">Tipsy</string>
+    <string name="enter_bill_amount">Enter bill amount</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="choose_tips_amount">Choose Tips Amount</string>
+    <string name="total">Total</string>
+    <string name="negative">-</string>
+    <string name="positive">+</string>
+    <string name="percentage_value">0 %</string>
+    <string name="bill">Bill</string>
+    <string name="tip">Tip</string>
+    <string name="percentage_symbol">%d%%</string>
+    <string name="language">sv</string>
+    <string name="country">SE</string>
+    <string name="empty_value">0,00 Kr</string>
+    <string name="refresh_amount">Refresh Amount</string>
+    <string name="invalid_amount">Invalid Amount</string>
+</resources>

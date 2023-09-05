@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">Módulo 202 - Proyecto 1</string>
+    <string name="celsius" translatable="false">%1s°C</string>
+    <string name="percentage" translatable="false">%s%%</string>
+    <string name="image_city">imagenCiudad</string>
+    <string name="select_a_city">Selecciona una ciudad</string>
+    <string name="agra">Agra</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="beijing">Pekín</string>
+    <string name="sydney">Sídney</string>
+    <string name="paris">París</string>
+    <string name="new_york">Nueva York</string>
+    <string name="london">Londres</string>
+    <string name="rio_de_janeiro">Río de Janeiro</string>
+    <string name="moscow">Moscú</string>
+    <string name="rome">Roma</string>
+    <string name="cloudiness">Nubosidad</string>
+    <string name="humidity">Humedad</string>
+    <string name="uv_index">Índice UV</string>
+    <string name="loading">Cargando</string>
+    <string name="unable_retrieve">No se puede recuperar</string>
+    <string name="unclouded">Despejado</string>
+    <string name="overcast">Nublado</string>
+    <string name="rain">Lluvia</string>
+    <string name="sunny">Soleado</string>
+    <string name="cloudy">Nublado</string>
+    <string name="rainy">Lluvioso</string>
+    <string name="stormy">Tormentoso</string>
+    <string name="windy">Ventoso</string>
+    <string name="foggy">Neblinoso</string>
+    <string name="snowy">Nevado</string>
+    <string name="icy">Helado</string>
+    <string name="hail">Granizo</string>
+    <string name="tornado">Tornado</string>
+    <string name="drizzle">Llovizna</string>
+    <string name="clear">Despejado</string>
+    <string name="gusty_wind">Viento racheado</string>
+    <string name="hot">Caluroso</string>
+    <string name="cool">Fresco</string>
+</resources>
+

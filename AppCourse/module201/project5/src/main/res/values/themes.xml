@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidHomework" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>q
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="EditTextBirth">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="TextViewNumber">
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.25</item>
+    </style>
+
+    <style name="TextViewTitle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+</resources>

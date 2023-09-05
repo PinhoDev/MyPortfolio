@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Module 201 - Project 1</string>
+    <string name="welcome">Welcome</string>
+    <string name="coffee_first_coding_later">Coffee First. Coding Later</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="connect_with_facebook">Connect with Facebook</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don’t Have an Account?</string>
+    <string name="it_s_coffee_time">It’s Coffee Time!</string>
+    <string name="username">Username</string>
+    <string name="already_a_member">Already a Member?</string>
+    <string name="successful_login">Successful Login</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="account_created">Account Created</string>
+    <string name="username_empty">Username Empty</string>
+    <string name="facebook_connect">Connect with Facebook</string>
+</resources>
